@@ -1,7 +1,7 @@
 const headerNavLinks = [
   { href: '/', title: 'Home' },
   { href: 'https://substack.com/@tusharmehta?utm_source=profile-page', title: 'blog' },
-//  { href: '/tags', title: 'Tags' },
+  //  { href: '/tags', title: 'Tags' },
   { href: '/projects', title: 'Projects' },
   { href: '/about', title: 'About' },
 ]

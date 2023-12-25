@@ -14,7 +14,7 @@ const siteMetadata = {
   email: 'tusharmehta2001@icloud.com',
   twitter: 'https://twitter.com/tushaarmehtaa',
   linkedin: 'https://www.linkedin.com/in/tushaarmehtaa/',
-  substack:'https://substack.com/@tusharmehta?utm_source=profile-page',
+  substack: 'https://substack.com/@tusharmehta?utm_source=profile-page',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
