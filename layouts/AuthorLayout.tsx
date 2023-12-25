@@ -38,7 +38,7 @@ export default function AuthorLayout({ children, content }: Props) {
               <SocialIcon kind="twitter" href={twitter} />
             </div>
           </div>
-          <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2 text-black dark:text-gray-400">
+          <div className="prose max-w-none pb-8 pt-8 text-black dark:prose-invert xl:col-span-2 dark:text-gray-400">
             {children}
           </div>
         </div>

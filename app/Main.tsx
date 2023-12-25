@@ -10,18 +10,18 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-      <div className="ml-0 space-y-4 md:space-y-6 p-8 md:pb-12">
-        <h1 className="text-3xl md:text-5xl leading-10 tracking-tight text-gray-900 dark:text-gray-100">
-          Hey. My name is Tushar.
-        </h1>
-        <p className="text-lg md:text-xl leading-7 text-black dark:text-gray-400">
-          {siteMetadata.description}
-        </p>
-      </div>
+        <div className="ml-0 space-y-4 p-8 md:space-y-6 md:pb-12">
+          <h1 className="text-3xl leading-10 tracking-tight text-gray-900 md:text-5xl dark:text-gray-100">
+            Hey. My name is Tushar.
+          </h1>
+          <p className="text-lg leading-7 text-black md:text-xl dark:text-gray-400">
+            {siteMetadata.description}
+          </p>
+        </div>
       </div>
       <div className="flex items-start justify-start">
         <div className="max-w-xl p-8 text-left text-black dark:text-gray-400">
-          <p className="mb-3 -mt-9">
+          <p className="-mt-9 mb-3">
             I'm a "figure it out as I go" kind of person, embracing getting things done over
             strategy. Progress over perfection. Journey over the destination.
           </p>
@@ -49,7 +49,7 @@ export default function Home({ posts }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Purple Pay  
+                Purple Pay
               </a>
             </li>
             <li>
