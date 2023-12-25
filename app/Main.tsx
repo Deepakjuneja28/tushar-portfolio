@@ -9,27 +9,27 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="ml-0 space-y-4 p-8 md:space-y-6 md:pb-12">
-          <h1 className="text-3xl leading-10 tracking-tight text-gray-900 md:text-5xl dark:text-gray-100">
-            Hey. My name is Tushar.
-          </h1>
-          <p className="text-lg leading-7 text-black md:text-xl dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
-        </div>
-      </div>
-      <div className="flex items-start justify-start">
-        <div className="max-w-xl p-8 text-left text-black dark:text-gray-400">
-          <p className="-mt-9 mb-3">
-            I'm a "figure it out as I go" kind of person, embracing getting things done over
-            strategy. Progress over perfection. Journey over the destination.
-          </p>
-          <p className="mb-6">
-            When I'm not writing, you can find me lifting, cycling, practicing yoga, or learning
-            based on my energy levels at that time.
-          </p>
-          <ul className="ml-4 list-disc space-y-2">
+ <div className="divide-y divide-gray-200 dark:divide-gray-700">
+  <div className="md:ml-0 space-y-4 p-5 md:space-y-4 md:pb-12  md:text-start">
+    <h1 className="font-bold text-2xl leading-10 tracking-tight text-gray-900 md:text-5xl dark:text-gray-100">
+      Hey. My name is Tushar.
+    </h1>
+    <p className="text-lg leading-7 text-black md:text-xl  dark:text-gray-400">
+      {siteMetadata.description}
+    </p>
+  </div>
+</div>
+<div className="flex flex-col md:flex-row items-start justify-start">
+  <div className="max-w-xl p-5 text-left text-black dark:text-gray-400">
+    <p className="-mt-3 mb-3">
+      I'm a "figure it out as I go" kind of person, embracing getting things done over
+      strategy. Progress over perfection. Journey over the destination.
+    </p>
+    <p className="mb-6">
+      When I'm not writing, you can find me lifting, cycling, practicing yoga, or learning
+      based on my energy levels at that time.
+    </p>
+    <ul className="ml-4 list-disc space-y-2">
             <li>
               Currently managing content and social media at{' '}
               <a
@@ -64,14 +64,14 @@ export default function Home({ posts }) {
               </a>
             </li>
             <li>
-              Co-founder of Podcast{' '}
+              Co-founder of {' '}
               <a
                 href="https://x.com/podcastdecoded_?s=21&t=blFbEqgYvEn7OKOd5e_F0w"
                 className="text-pink-500"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Decoded
+               Podcast Decoded
               </a>
             </li>
             <li>
