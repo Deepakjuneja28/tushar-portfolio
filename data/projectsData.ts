@@ -2,8 +2,8 @@ const projectsData = [
   {
     title: 'MEDIUM-FORM LINKEDIN WRITING',
     description: `This is in-depth analysis on the Indian startup scene. I write ~400 word medium form articles providing detailed commentary on the latest developments.
-    - Grew to 10K LinkedIn followers
-    - Drive 500k organic monthly impressions
+    - Grew to 10K LinkedIn followers 
+    - Drive 500k organic monthly impressions 
     - Produce 1-2 viral posts per week`,
     imgSrc: '/static/images/second.png',
     href: 'https://www.notion.so/USEFUL-LINKS-cd95e870146446fb85f7b908df642f9e?pvs=4#17187aa7a0b64861a66c6098ac867e79',
